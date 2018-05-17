@@ -1,0 +1,23 @@
+{
+  "name": "dng-graphvis",
+  "version": "0.1.0",
+  "description": "Graph viewer for DeNovoGear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/index.ts --outDir build && browserify build/index.js -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderspitman/dng-graphvis.git"
+  },
+  "author": "Anders Pitman <tapitman11@gmail.com> (anderspitman.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderspitman/dng-graphvis/issues"
+  },
+  "homepage": "https://github.com/anderspitman/dng-graphvis#readme",
+  "dependencies": {
+    "graphml-js": "^0.4.0"
+  }
+}
